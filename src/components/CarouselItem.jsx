@@ -21,7 +21,7 @@ const CarouselItem = ({ cover, title, year, contentRating, duration }) => (
 
 //Vamos a validar con el paquete prop-types
 
-CarouselItem.PropTypes = {
+CarouselItem.propTypes = {
   cover: PropTypes.string,
   title: PropTypes.string,
   year: PropTypes.number,
