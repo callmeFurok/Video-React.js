@@ -13,7 +13,7 @@ import '../assets/styles/App.scss';
 const API = 'http://localhost:3000/initalState';
 
 const App = () => {
-  //Añadimos el estado a la aplicacion
+  //Añadimos el estado a la aplicacion y la API desde una funcion hook
   const [videos, categories] = useInitialState(API);
 
   return (
